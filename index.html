@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="clock.png" type="image/png">
+    <title>Focus Timer</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="focus">FocusTimer :</h1>
+        <h2 id="breakLength">Break length
+            <button id="decrease-break" class="arrow-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <span id="breakLengthValue">5</span>
+            <button id="increase-break" class="arrow-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            <span class="spacer"></span> Session length
+            <button id="decrease-session" class="arrow-button">
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <span id="sessionLengthValue">25</span>
+            <button id="increase-session" class="arrow-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </h2>
+        <div id="border-primary">
+            <h3 id="session">Session<br> 25:00</h3>
+        </div> 
+        <div id="control">
+            <button id="play"> <i class="fas fa-play"></i> </button>
+            <button id="pause"> <i class="fas fa-pause"></i> </button>
+            <button id="reset"><i id="redo" class="fas fa-redo"></i> </button>
+        </div>
+        <footer>Designed and Coded by<br>
+           <div id="aka">
+            <div> Aksachli </div> 
+           </div>
+        </footer>
+    </div>
+    <script src="App.js"></script>
+</body>
+</html>
